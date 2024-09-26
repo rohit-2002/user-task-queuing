@@ -37,12 +37,12 @@ node cluster.js
 
 ### Testing the API with Postman
 
-- **Open Postman and create a new POST request.Set the URL to
+- **Open Postman and create a new POST request.**
+- **Set the URL to:**
 ``` bash
   http://localhost:3000/task.
 ``` 
-- **Set the request body:**
-- **Set Headers:**
+- **Set the request body and headers:**
 - **Click on the "Headers" tab below the URL input bar.**
 - **Add a new header:**
 - **Key**:
