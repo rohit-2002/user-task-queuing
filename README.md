@@ -26,20 +26,33 @@ We leverage Redis for efficient task management and ensure robust error handling
  ```bash
  npm install
  ```
-- **Start Redis server :**
- ```bash redis-server
-- **Running the APIStart the API with**: ```bash node cluster.js ```
+### Start Redis server 
+ ```bash
+ redis-server
+ ```
+### Running the APIStart the API with**: 
+```bash 
+node cluster.js
+```
 
 ### Testing the API with Postman
 
-- **Open Postman and create a new POST request.Set the URL to ``` bash
-  http://localhost:3000/task.``` 
+- **Open Postman and create a new POST request.Set the URL to
+``` bash
+  http://localhost:3000/task.
+``` 
 - **Set the request body:**
 - **Set Headers:**
 - **Click on the "Headers" tab below the URL input bar.**
 - **Add a new header:**
-- **Key**: ``` bash Content-Type ```
-- **Value**: ``` bash application/json ```
+- **Key**:
+  ``` bash
+  Content-Type
+  ```
+- **Value**:
+  ``` bash
+  application/json
+  ```
 
 - **Enter the Request Body:**
 - **Click on the "Body" tab.**
@@ -49,7 +62,8 @@ We leverage Redis for efficient task management and ensure robust error handling
 ``` bash
 {
   "user_id": "123"
-}```
+}
+```
 - **Send the request.**
 - **You should receive a response indicating the task has been queued.**
 
