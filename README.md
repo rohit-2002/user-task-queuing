@@ -23,24 +23,22 @@ We leverage Redis for efficient task management and ensure robust error handling
    cd user-task-queuing
    
 ### Install dependencies
-
 npm install
-Start Redis server: Make sure Redis is installed and running on your machine. You can start Redis with:
-redis-server
-Running the APIStart the API with:
-node cluster.js
 
-Testing the API with Postman
-Open Postman and create a new POST request.
-Set the URL to http://localhost:3000/task.
+- **Start Redis server**: redis-server
+**Running the APIStart the API with**: node cluster.js
 
+### Testing the API with Postman
+
+**Open Postman and create a new POST request.
+Set the URL to http://localhost:3000/task.**: 
 Set the request body:
 Set Headers:
-
 Click on the "Headers" tab below the URL input bar.
 Add a new header:
-Key: Content-Type
-Value: application/json
+**Key**: Content-Type
+**Value**: application/json
+
 Enter the Request Body:
 Click on the "Body" tab.
 Select "raw".
